@@ -40,9 +40,12 @@ class MainActivity : AppCompatActivity() {
 
 //        On click share message button to share message with various messaging app
         onClickShareMessageButton()
+
+//        On click Go to profile page i.e., showing the use of explicit intent
+        onClickGoToProfileButton()
     }
 
-//    Function that open web page or application of provided link
+    //    Function that open web page or application of provided link
     private fun onClickWebPageButton() {
         binding.openWebPage.setOnClickListener {
             val intent = Intent(
@@ -85,6 +88,13 @@ class MainActivity : AppCompatActivity() {
             else{
                 startActivity(Intent.createChooser(intent, "Share Via"))
             }
+        }
+    }
+
+//    Explicit Intent
+    private fun onClickGoToProfileButton() {
+        binding.profile.setOnClickListener {
+            startActivity(Intent(this, ProfileActivity::class.java))
         }
     }
 }
