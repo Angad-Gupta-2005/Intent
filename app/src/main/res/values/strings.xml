@@ -6,4 +6,7 @@
     <string name="phone_call">Open Phone Call</string>
     <string name="open_web_page">Open Web Page</string>
     <string name="implicit_intent">Implicit Intent</string>
+    <string name="explicit_intent">Explicit Intent</string>
+    <string name="go_to_profile_page">Go to Profile page</string>
+    <string name="textview">TextView</string>
 </resources>
