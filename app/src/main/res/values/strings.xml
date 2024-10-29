@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Intent</string>
+    <string name="share_message">Share Message Button</string>
+    <string name="your_message">Enter your message:</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="phone_call">Open Phone Call</string>
+    <string name="open_web_page">Open Web Page</string>
 </resources>
